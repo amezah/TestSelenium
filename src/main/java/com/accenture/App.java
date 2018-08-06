@@ -85,7 +85,7 @@ public class App {
 			WebElement click;
 			click = driver.switchTo().activeElement();
 			click.sendKeys("masterkool04@hotmail.com");
-			click.sendKeys("\t"+Main.pass+"\n");
+			click.sendKeys("\t"+" passw "+"\n");
 			
 			Thread.sleep(1000);			
 			click = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]"
