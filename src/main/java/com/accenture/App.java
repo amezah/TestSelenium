@@ -49,7 +49,7 @@ public class App {
 		
 		Thread.sleep(1000);
 		click = driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input"));
-		click.sendKeys("masterkool\n");
+		click.sendKeys("clave aqui \n");
 		
 		Thread.sleep(1000);
 		click = driver.findElement(By.xpath("//div[@class='T-I J-J5-Ji T-I-KE L3']"));
